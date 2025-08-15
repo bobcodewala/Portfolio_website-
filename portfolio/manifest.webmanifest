@@ -1,0 +1,11 @@
+{
+  "name": "DevOps & Cloud Engineer — Portfolio",
+  "short_name": "DevOps",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

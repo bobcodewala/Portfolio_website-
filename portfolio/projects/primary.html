@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitOps Platform — Case Study</title>
+    <meta name="description" content="Case study of an enterprise GitOps platform on EKS with Argo CD, Helm, Terraform, and full observability.">
+    <link rel="canonical" href="/projects/primary.html">
+    <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Home">
+          <img src="../assets/logo.svg" width="28" height="28" alt="Logo">
+          <span>DevOps & Cloud</span>
+        </a>
+        <nav class="site-nav" role="navigation">
+          <ul>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="section">
+      <div class="container">
+        <h1>GitOps Platform — Primary Project</h1>
+        <p class="subtitle">EKS • Argo CD • Helm • Terraform • Prometheus • SSO • Multi-Account AWS</p>
+
+        <div class="card" style="margin: 18px 0;">
+          <img src="../assets/gitops-diagram.svg" alt="GitOps platform architecture diagram">
+        </div>
+
+        <section class="section" style="padding-top: 24px; padding-bottom: 24px;">
+          <h2>Overview</h2>
+          <p>Designed and delivered a production-grade GitOps platform for 20+ microservices across multiple environments. The platform standardized delivery using Helm charts, enforced policy-as-code, and provided full observability with SLOs.</p>
+        </section>
+
+        <section class="section" style="padding-top: 24px; padding-bottom: 24px;">
+          <h2>Architecture</h2>
+          <ul class="chips">
+            <li>Infrastructure: AWS Organizations, VPC, EKS, RDS</li>
+            <li>IaC: Terraform + Terragrunt</li>
+            <li>Delivery: Argo CD, Helm, progressive rollout</li>
+            <li>Security: IAM roles for service accounts, secrets mgmt</li>
+            <li>Observability: Prometheus, Alertmanager, Grafana, OTEL</li>
+          </ul>
+        </section>
+
+        <section class="section" style="padding-top: 24px; padding-bottom: 24px;">
+          <h2>Key Outcomes</h2>
+          <ul>
+            <li>70% faster lead time and 60% reduction in change failure rate.</li>
+            <li>Zero-downtime deployments with blue/green and canary strategies.</li>
+            <li>Automated guardrails reduced production incidents by 40%.</li>
+          </ul>
+        </section>
+
+        <section class="section" style="padding-top: 24px; padding-bottom: 24px;">
+          <h2>What I Built</h2>
+          <ul>
+            <li>Terraform modules for EKS, networking, and managed services.</li>
+            <li>Reusable Helm charts for apps, jobs, and platform add-ons.</li>
+            <li>Argo CD app-of-apps pattern with environment overlays.</li>
+            <li>Dashboards and alerts aligned to service SLOs.</li>
+          </ul>
+        </section>
+
+        <div class="project-cta">
+          <a class="btn" href="../index.html">← Back to Portfolio</a>
+          <a class="btn btn-primary" href="#" target="_blank" rel="noopener">View Source</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Your Name — DevOps & Cloud Engineer</p>
+      </div>
+    </footer>
+
+    <script defer src="../script.js"></script>
+  </body>
+</html>

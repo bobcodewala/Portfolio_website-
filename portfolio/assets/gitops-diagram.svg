@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" fill="none">
+  <rect width="800" height="420" rx="14" fill="#0f1830"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#00ddb3"/></linearGradient>
+  </defs>
+  <g stroke="#1f2a44" stroke-width="2">
+    <rect x="40" y="40" width="200" height="100" rx="10" fill="#101829"/>
+    <rect x="300" y="40" width="200" height="100" rx="10" fill="#101829"/>
+    <rect x="560" y="40" width="200" height="100" rx="10" fill="#101829"/>
+
+    <rect x="120" y="200" width="560" height="160" rx="12" fill="#101829"/>
+  </g>
+  <g fill="#cfe0ff" font-family="ui-sans-serif, system-ui" font-size="16" text-anchor="middle">
+    <text x="140" y="95">Git Repos</text>
+    <text x="400" y="95">CI Pipelines</text>
+    <text x="660" y="95">Argo CD</text>
+    <text x="400" y="280">EKS Cluster + Apps</text>
+  </g>
+  <g stroke="url(#g)" stroke-width="3" fill="none">
+    <path d="M240 90h58"/>
+    <path d="M500 90h58"/>
+    <path d="M400 140v50"/>
+    <path d="M660 140v50"/>
+  </g>
+</svg>
