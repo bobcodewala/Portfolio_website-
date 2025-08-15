@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0b1220"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#00ddb3"/></linearGradient>
+  </defs>
+  <g font-family="ui-sans-serif, system-ui" fill="#e6ecff">
+    <text x="80" y="160" font-size="56">DevOps & Cloud Engineer</text>
+    <text x="80" y="230" font-size="28" fill="#a3b3d1">Kubernetes • Terraform • CI/CD • AWS</text>
+  </g>
+  <g stroke="#1f2a44" fill="#101829" stroke-width="2">
+    <rect x="80" y="320" width="260" height="160" rx="14"/>
+    <rect x="380" y="320" width="260" height="160" rx="14"/>
+    <rect x="680" y="320" width="260" height="160" rx="14"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="6">
+    <path d="M340 400h40"/>
+    <path d="M640 400h40"/>
+  </g>
+</svg>
